@@ -15,7 +15,6 @@ body{
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin: 40px 10px 10px 10px;
   background-color: var(--Neutral-Very-light-gray);
 }
 
@@ -131,6 +130,7 @@ a{
 @media screen and (max-width: 679px){
   body{
     height: auto;
+    margin: 40px 10px 10px 10px;
   }
   .card__flex{
     flex-direction: column;
